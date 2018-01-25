@@ -1,0 +1,116 @@
+html, body {
+	font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#firstDiv {
+	background-color: #f7f7f7 ; 
+	width: 100%; 
+	height: 70px
+}
+
+#about {
+	margin-top: 170px;
+}
+
+#about-row {
+	margin-top: 120px;
+	margin-bottom: 200px;
+}
+
+.card {
+	background-color: #eee;
+}
+
+.card-text {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#water-text {
+	margin-bottom: 30px;
+}
+.card-img-top {
+	width: 100%;
+	height: 250px;
+}
+
+#idioma {
+	cursor: pointer;
+}
+footer {
+	background-color: #eee; 
+}
+#rrss {
+    width: 20%
+}
+#map {
+	width: 60%;
+	
+}
+
+#footer-container {
+	padding-bottom: 50px;
+}
+#all-footer {
+	margin-top: 70px;
+}
+
+i {
+	margin-top: 100px;
+	margin-left: 15px;
+	color: #333;
+}
+
+#copyright {
+	margin-top: 20px;
+}
+
+#paginas-relacionadas {
+	list-style: none;
+
+}
+
+#paginas-relacionadas li a {
+	color: #333;
+}
+#container-paginas {
+	margin-top: 60px;
+}
+
+
+
+
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #fed136;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: #212529;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #333;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
