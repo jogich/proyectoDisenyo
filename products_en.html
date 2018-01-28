@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WATER INSTINCT</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<!-- FIRST DIV -->
+	<div id="firstDiv" style="background-color: #f7f7f7 ; width: 100%; height: 70px" >
+		<p class="helper pull-right" style="font-weight:bold;margin-right:50px; top:15px; margin-top:25px;">Language: <a data-toggle="modal" data-target="#modal" id="idioma">ENG</a></p>
+	</div>
+	<!-- FIRST DIV -->
+
+	<!-- NAV -->
+	<nav class="navbar navbar-default" role="navigation" id="mainNav">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="index_en.html">WATER INSTINCT</a>
+   	 		</div>
+
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	     		<ul class="nav navbar-nav">
+	          		<li><a href="product_en.html">Products</a></li>
+	      		</ul>
+	      		<ul class="nav navbar-nav navbar-right">
+	       			<li><a href="contact_en.html">Contact</a></li>
+	      		</ul>
+	    	</div>
+	  	</div>
+	</nav>
+	<!-- NAV -->
+
+	<!-- CONTAINER -->
+	<div class="container">
+		<!-- JUMBOTRON -->
+		<div class="jumbotron">
+			<!-- CAROUSEL -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      			<ol class="carousel-indicators">
+			        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#myCarousel" data-slide-to="1"></li>
+			        <li data-target="#myCarousel" data-slide-to="2"></li>
+      			</ol>
+	      		<div class="carousel-inner" role="listbox">
+	        		<div class="item active">
+	          			<img class="first-slide" src="img/natacion.jpeg" alt="First slide" style="height: 575px; width: 100%;">
+	        		</div>
+			        <div class="item">
+			          	<img class="second-slide" src="img/buceo.jpeg" alt="Second slide" style="height: 575px; width: 100%;">
+			        </div>
+	        		<div class="item">
+	          			<img class="third-slide" src="img/surfero.jpeg" alt="Third slide" style="height: 575px; width: 100%;">
+	        		</div>
+	      		</div>
+      			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        			<span class="sr-only">Previous</span>
+      			</a>
+      			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        			<span class="sr-only">Next</span>
+      			</a>
+    		</div>
+    		<!-- CAROUSEL -->	
+		</div>
+		<!-- JUMBOTRON -->
+	</div>
+	<!--CONTAINER-->
+
+<!-- CARDS -->
+	<div id="about">
+		<h2 class="text-center">PRODUCTS</h2>
+		<div class="row" id="about-row">
+			<div class="col-sm-6" id="col-card">
+				<div class="card">
+					<div class="text-center">
+						<img class="card-img-top" src="img/gafas.jpg" alt="Card image cap">
+					</div>
+					<div class="card-block">
+						<h3 class="card-title">GLASSES</h3>
+						<p class="card-text" id="water-text">
+							Glasses for training, racing... ...<br>
+							Brands: Speedo, Arena, Jaked, Mosconi ...
+						</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#gafas-modal">+</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6" id="col-card">
+				<div class="card">
+					<div class="text-center">
+						<img class="card-img-top" src="img/bañador.jpg" alt="Card image cap">
+					</div>
+					<div class="card-block">
+						<h3 class="card-title">SWIMSUITS</h3>
+						<p class="card-text">
+							Swimsuits for training, racings ...<br>
+							Brands: Speedo, Arena, MP, aked, Turbo ...
+							<br><br>
+						</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#bañador-modal">+</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6" id="col-card">
+				<div class="card">
+					<div class="text-center">
+						<img class="card-img-top" src="img/gorros.jpg" alt="Card image cap">
+					</div>
+					<div class="card-block">
+						<h3 class="card-title">CAPS</h3>
+						<p class="card-text">
+							Caps for training, racings ... <br>
+							Brands: Speedo, Arena, Turbo ...
+						</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#gorros-modal">+</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6" id="col-card">
+				<div class="card">
+					<div class="text-center">
+						<img class="card-img-top" src="img/tubo.jpg" alt="Card image cap">
+					</div>
+					<div class="card-block">
+						<h3 class="card-title">TUBE</h3>
+						<p class="card-text">
+							Tube for diving...
+						</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#tubo-modal">+</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CARDS -->
+</body>
+
+<!-- FOOTER -->
+<footer class="footer">
+	<div class="container" id="footer-container">
+		<div id="all-footer">
+			<div class="col-sm-4" id="rrss" style="float: left;">
+				<a href=""><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+			</div>
+			
+			<div id="map" class="col-sm-4"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&height=300&hl=es&q=Florida%20Universitaria+(Water%20Instinct)&ie=UTF8&t=&z=15&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
+
+			<div class="col-sm-4 text-center" style="width: 20%" id="container-paginas"><b id="text-paginas">Information</b>:
+				<p class="text-muted">
+				<ul style="list-style: none;" id="paginas-relacionadas">
+					<li>Address: <br>Street Kitty 32, Valencia, Spain</li><br>
+					<li>Telephone: <br>+34 961 52 31 05</li><br>
+					<li>Email: <br><a href="">waterinstinct@info.com</a></li><br>
+					<li>More info: <br><a href="contact.html">CONTACT US</a></li>
+				</ul>
+				</p>
+			</div>
+			<div class="col-sm-12 text-center" id="copyright">
+				<p>COPYRIGHT BY <b>WATER INSTINCT</b></p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- FOOTER -->
+
+<!-- LANGUAGE MODAL -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  	<h4 class="modal-title">LANGUAGE</h4>
+			</div>
+			<div class="modal-body">
+				<p>Choose a language:</p>
+				<ul>
+					<li><a href="product.html">Spanish</a></li>
+					<li><a href="">Inglés</a> -> current</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- LANGUAGE MODAL -->
+
+<!-- GAFAS MODAL -->
+<div class="modal fade" id="gafas-modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  	<h4 class="modal-title">GAFAS</h4>
+			</div>
+			<div class="modal-body">
+				<img src="img/gafas-speedo.jpg" width="50%;">
+				<ul>
+					<li>Marca: Speedo</li>
+					<li>Tipo: Competición</li>
+					<li>Color: Negro</li>
+					<li>Polarizadas: Si</li>
+					<li>Precio: 40€</li>
+				</ul>
+				<img src="img/fast-speedo-1.jpg" width="50%;">
+				<ul>
+					<li>Marca: Speedo</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Azul</li>
+					<li>Polarizadas: Si</li>
+					<li>Precio: 30€</li>
+				<img src="img/gafas.jpg" width="50%;">
+				</ul>
+				<ul>
+					<li>Marca: Arena</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Negro</li>
+					<li>Polarizadas: Si</li>
+					<li>Precio: 10€</li>
+				</ul>
+				<img src="img/gafas-mosconi.jpg" width="50%;">
+				<ul>
+					<li>Marca: Mosconi</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Negro</li>
+					<li>Polarizadas: Si</li>
+					<li>Precio: 15€</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- GAFAS MODAL -->
+
+<!-- BAÑADOR MODAL -->
+<div class="modal fade" id="bañador-modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  	<h4 class="modal-title">BAÑADORES</h4>
+			</div>
+			<div class="modal-body">
+				<img src="img/fast-speedo-1.jpg" width="50%;">
+				<ul>
+					<li>Marca: Speedo</li>
+					<li>Tipo: Competición</li>
+					<li>Color: Negro</li>
+					<li>Sexo: Hombre</li>
+					<li>Precio: 250€</li>
+				</ul>
+				<img src="img/fast-speedo-2.jpg" width="50%;">
+				<ul>
+					<li>Marca: Speedo</li>
+					<li>Tipo: Competición</li>
+					<li>Color: Azul</li>
+					<li>Sexo: Mujer</li>
+					<li>Precio: 350€</li>
+				</ul>
+				<img src="img/bañador-turbo.jpg" width="50%;">
+				<ul>
+					<li>Marca: Turbo</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Multicolor</li>
+					<li>Sexo: Mujer</li>
+					<li>Precio: 10€</li>
+				</ul>
+				<img src="img/bañador-arena.jpg" width="50%;">
+				<ul>
+					<li>Marca: Mosconi</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Negro</li>
+					<li>Sexo: Hombre</li>
+					<li>Precio: 15€</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- BAÑADOR MODAL -->
+
+<!-- GORROS MODAL -->
+<div class="modal fade" id="gorros-modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  	<h4 class="modal-title">GORROS</h4>
+			</div>
+			<div class="modal-body">
+				<img src="img/gorro-speedo-1.jpg" width="50%;">
+				<ul>
+					<li>Marca: Speedo</li>
+					<li>Tipo: Competición</li>
+					<li>Color: Negro</li>
+					<li>Precio: 15€</li>
+				</ul>
+				<img src="img/gorro-arena-1.jpg" width="50%;">
+				<ul>
+					<li>Marca: Arena</li>
+					<li>Tipo: Competición</li>
+					<li>Color: Blanco</li>
+					<li>Precio: 20€</li>
+				</ul>
+				<img src="img/gorro-turbo-espana.jpg" width="50%;">
+				<ul>
+					<li>Marca: Turbo</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Multicolor</li>
+					<li>Precio: 10€</li>
+				</ul>
+				<img src="img/gorro-mosconi.jpg" width="50%;">
+				<ul>
+					<li>Marca: Mosconi</li>
+					<li>Tipo: Entrene</li>
+					<li>Color: Gris</li>
+					<li>Precio: 15€</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- GORROS MODAL -->
+
+<!-- TUBO MODAL -->
+<div class="modal fade" id="tubo-modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  	<h4 class="modal-title">TUBO</h4>
+			</div>
+			<div class="modal-body">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- TUBO MODAL -->
+
+<!-- SCRIPTS -->
+<script src="dist/jquery-3.2.1.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<!-- SCRIPTS -->
+</html>
